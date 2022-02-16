@@ -1,0 +1,12 @@
+Source: ros-rolling-affordance-primitives
+Section: misc
+Priority: optional
+Maintainer: Adam Pettinger <adam.pettinger@utexas.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-clang-format, ros-rolling-ament-clang-tidy, ros-rolling-ament-cmake, ros-rolling-ament-cmake-copyright, ros-rolling-ament-cmake-gtest, ros-rolling-ament-cmake-lint-cmake, ros-rolling-ament-lint-auto, ros-rolling-geometry-msgs, ros-rolling-tf2-eigen, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-affordance-primitives
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-geometry-msgs, ros-rolling-tf2-eigen, ros-rolling-ros-workspace
+Description: Library for affordance motion primitives.
