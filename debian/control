@@ -1,0 +1,12 @@
+Source: ros-humble-affordance-primitives
+Section: misc
+Priority: optional
+Maintainer: Adam Pettinger <adam.pettinger@utexas.edu>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-clang-format <!nocheck>, ros-humble-ament-clang-tidy <!nocheck>, ros-humble-ament-cmake, ros-humble-ament-cmake-copyright <!nocheck>, ros-humble-ament-cmake-gtest <!nocheck>, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-geometry-msgs, ros-humble-tf2-eigen, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-affordance-primitives
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-geometry-msgs, ros-humble-tf2-eigen, ros-humble-ros-workspace
+Description: Library for affordance motion primitives.
